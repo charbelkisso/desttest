@@ -1,0 +1,10 @@
+{
+    "authenticationMethod": "none",
+    "routes": [
+        {
+            "destination" : "ES5",
+            "source": "^/sap/ui5/1(.*)$",
+            "target": "$1"        
+        }
+    ]
+}

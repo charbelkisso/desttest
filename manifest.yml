@@ -1,0 +1,10 @@
+---
+applications: 
+  - name: desttest
+    buildpacks: 
+      - nodejs_buildpack
+    memory: 128M
+    random-route: true
+    services:
+      - desttest
+      

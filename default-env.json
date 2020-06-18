@@ -1,0 +1,34 @@
+{
+	"VCAP_SERVICES": {
+		"destination": [
+			{
+				"label": "destination",
+				"provider": null,
+				"plan": "lite",
+				"name": "desttest",
+				"tags": [
+					"destination",
+					"conn",
+					"connsvc"
+				],
+				"instance_name": "desttest",
+				"binding_name": null,
+				"credentials": {
+					"uaadomain": "authentication.eu10.hana.ondemand.com",
+					"tenantmode": "dedicated",
+					"clientid": "sb-clone79291022962f4561bc3e39ce232924e6!b48207|destination-xsappname!b404",
+					"instanceid": "79291022-962f-4561-bc3e-39ce232924e6",
+					"verificationkey": "-----BEGIN PUBLIC KEY-----MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwThn6OO9kj0bchkOGkqYBnV1dQ3zU/xtj7Kj7nDd8nyRMcEWCtVzrzjzhiisRhlrzlRIEY82wRAZNGKMnw7cvCwNixcfcDJnjzgr2pJ+5/yDZUc0IXXyIWPZD+XdL+0EogC3d4+fqyvg/BF/F0t2hKHWr/UTXE6zrGhBKaL0d8rKfYd6olGWigFd+3+24CKI14zWVxUBtC+P9Fhngc9DRzkXqhxOK/EKn0HzSgotf5duq6Tmk9DCNM4sLW4+ERc6xzrgbeEexakabvax/Az9WZ4qhwgw+fwIhKIC7WLwCEJaRsW4m7NKkv+eJR2LKYesuQ9SVAJ3EXV86RwdnH4uAv7lQHsKURPVAQBlranSqyQu0EXs2N9OlWTxe+FyNkIvyZvoLrZl/CdlYc8AKxRm5rn2/88nkrYQ0XZSrnICM5FRWgVF2hn5KfZGwtBN85/D4Yck6B3ocMfyX7e4URUm9lRPQFUJGTXaZnEIge0R159HUwhTN1HvyXrs6uT1ZZmW+c3p47dw1+LmUf/hIf8zd+uvHQjIeHEJqxjqfyA8yqAFKRHKVFrwnwdMHIsRap2EKBhHMfeVf0P2th5C9MggYoGCvdIaIUgMBX3TtCdvGrcWML7hnyS2zkrlA8SoKJnRcRF2KxWKs355FhpHpzqyZflO5l98+O8wOsFjGpL9d0ECAwEAAQ==-----END PUBLIC KEY-----",
+					"xsappname": "clone79291022962f4561bc3e39ce232924e6!b48207|destination-xsappname!b404",
+					"identityzone": "b9fa285dtrial",
+					"clientsecret": "PKaxv9U2CnK3fms77qxCP9gCIw8=",
+					"tenantid": "3297b970-251b-4402-b410-e6b0a25b4a0f",
+					"uri": "https://destination-configuration.cfapps.eu10.hana.ondemand.com",
+					"url": "https://b9fa285dtrial.authentication.eu10.hana.ondemand.com"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}
+}
